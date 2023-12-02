@@ -5,24 +5,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Studio</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Normalize styles -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css">
+
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="./css/styles.css" />
 </head>
+
 
 <body>
     <!--Header section-->
-    <header id="Contacts">
+    <header class="header" id="Contacts">
 
-        <nav>
+        <nav class="header-nav">
             <a href="./index.html">WebStudio</a>
 
-            <ul>
-                <li>
-                    <a href="#Studio">Studio</a>
+            <ul class="header-list">
+                <li class="header-item">
+                    <a class="header-link" #Studio>Studio</a>
                 </li>
-                <li>
-                    <a href="#Portfolio">Portfolio</a>
+                <li class="header-item">
+                    <a class="header-link" #Portfolio>Portfolio</a>
                 </li>
-                <li>
-                    <a href="#Contacts">Contacts</a>
+                <li class="header-item">
+                    <a class="header-link" #Contacts>Contacts</a>
                 </li>
             </ul>
         </nav>
@@ -75,7 +88,7 @@
             </ul>
         </section>
         <!-- Team section -->
-        <section id="Portfolio">
+        <section>
             <h2>Our Team</h2>
             <ul>
                 <li>
@@ -97,6 +110,42 @@
                     <img src="./images/Team/img-4.jpg" alt="Our team photo 4" width="264" height="260" />
                     <h3>Daniel Wilson</h3>
                     <p>UI Designer</p>
+                </li>
+            </ul>
+        </section>
+        <!-- Portfolio -->
+        <section id="Portfolio">
+            <h2>Our Portfolio</h2>
+            <ul>
+                <li>
+                    <img src="./images/Portfolio/img-1.jpg" alt="Portfolio photo 1" width="360px" height="300" />
+                    <h3>Banking App</h3>
+                    <p>App</p>
+                </li>
+                <li>
+                    <img src="./images/Portfolio/img-2.jpg" alt="Portfolio photo 2" width="360px" height="300" />
+                    <h3>Cashless Payment</h3>
+                    <p>Marketing</p>
+                </li>
+                <li>
+                    <img src="./images/Portfolio/img-3.jpg" alt="Portfolio photo 3" width="360px" height="300" />
+                    <h3>Meditation App</h3>
+                    <p>App</p>
+                </li>
+                <li>
+                    <img src="./images/Portfolio/img-4.jpg" alt="Portfolio photo 4" width="360px" height="300" />
+                    <h3>Taxi Service</h3>
+                    <p>Marketing</p>
+                </li>
+                <li>
+                    <img src="./images/Portfolio/img-5.jpg" alt="Portfolio photo 5" width="360px" height="300" />
+                    <h3>Screen Illustrations</h3>
+                    <p>Design</p>
+                </li>
+                <li>
+                    <img src="./images/Portfolio/img-6.jpg" alt="Portfolio photo 6" width="360px" height="300" />
+                    <h3>Online Courses</h3>
+                    <p>Marketing</p>
                 </li>
             </ul>
         </section>
