@@ -66,7 +66,7 @@ p {
 }
 
 .header-link {
-    color: var #2E2F42;
+    color: #2E2F42;
     font-family: Roboto, sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -79,7 +79,7 @@ p {
     color: #404bbf;
 }
 
-.address {
+.address-link {
     color: #434455;
     font-family: Roboto, sans-serif;
     font-size: 16px;
@@ -89,8 +89,8 @@ p {
     font-style: normal;
 }
 
-.address:hover,
-.address:focus {
+.address-link:hover,
+.address-link:focus {
     color: #404bbf;
 }
 
