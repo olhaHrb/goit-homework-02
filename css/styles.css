@@ -50,3 +50,26 @@ ul {
     font-style: normal;
 }
 
+.hero-section {
+    background-color: #2E2F42;
+}
+
+h1 {
+    color: #FFFFFF;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 60px;
+        letter-spacing: 1.12px;
+}
+
+.hero-button {
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.64px;
+}
